@@ -5,9 +5,9 @@ public class CalculatorTest extends TestCase {
     Calci cal = new Calci();
 
     public void testAdd() {
-        Assert.assertEquals(cal.add(10, 20), 30);
+        Assert.assertEquals(cal.add(-10, -20), 30);
     }
     public void testMultiply() {
-        Assert.assertEquals(cal.mul(10, 20), 200);
+        Assert.assertEquals(cal.mul(15, 20), 200);
     }
 }
