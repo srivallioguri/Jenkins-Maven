@@ -23,7 +23,7 @@ public double div(double i, double j) {
         }
     }
 }
-public class Application {
+public class Calculator {
     public static void main(String[] args) {
         System.out.println("Simple Calculator");
         System.out.println();
