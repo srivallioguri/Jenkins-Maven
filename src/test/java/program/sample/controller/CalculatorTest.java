@@ -8,6 +8,6 @@ public class CalculatorTest extends TestCase {
         Assert.assertEquals(cal.add(5, 15), 20);
     }
     public void testMultiply() {
-        Assert.assertEquals(cal.mul(30, 20), 500);
+        Assert.assertEquals(cal.mul(30, 20), 600);
     }
 }
