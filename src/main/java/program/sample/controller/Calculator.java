@@ -1,6 +1,6 @@
 package program.sample.controller;
 import java.util.*;
-class Calculator {
+class Calci {
 public int add(int i, int j) {
         System.out.println("Addition of " + i + "," + j + " is: " + (i + j));
         return i + j;
@@ -27,7 +27,7 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("Simple Calculator");
         System.out.println();
-        Calculator cal = new Calculator();
+        Calci cal = new Calci();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two numbers: ");
         int a, b;
